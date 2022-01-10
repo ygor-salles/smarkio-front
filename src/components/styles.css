@@ -1,0 +1,90 @@
+.app-container {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    /* margin-top: 2rem; */
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    flex: 49.5%;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    flex: 49.5%;
+}
+
+@media (max-width: 800px) {
+    .app-container {
+        flex-direction: column;
+    }
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.4;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+}
+
+.span-loading {
+    top: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+textarea, .button-post {
+    width: 70%;
+}
+
+textarea {
+    height: 7rem;
+}
+
+.button-post {
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #b3abab8f;
+    font-size: medium;
+    border: solid 1px black;
+    color: #2e2e2e;
+    font-weight: 600;
+}
+
+.item-conatiner {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-comment {
+    display: flex;
+    flex: 85%;
+    padding: 20px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-audio {
+    border-radius: 5px;
+    border: solid 1px black;
+    padding: 5px 20px 5px 20px;
+    font-weight: 400;
+    color: #2e2e2e;
+    background-color: #b3abab8f;
+    cursor: pointer;
+}
