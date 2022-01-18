@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+<h4 align="center">
+    :computer: App Smarkio - Aplicação para cadastro de comentários e escuta de audio
+</h4>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#user-content-clipboard-instruções">Instruções</a></p>
 
-## Available Scripts
+<img alt="Interface" src="./assets/deviceframes.png" width="100%" align="center">
+<br/>
 
-In the project directory, you can run:
+## 💻 Projeto
 
-### `yarn start`
+Frontend App em ReactJS. App frontend para cadastro de comentários e escuta de audio através da API IBM Watson
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## :rocket: Tecnologias
 
-### `yarn test`
+- [ReactJS](https://pt-br.reactjs.org/) 
+- [Typescript](https://www.typescriptlang.org/)
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/HTML5)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Axios](https://axios-http.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## :clipboard: Instruções
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+----
+### INTERFACE - FRONTEND
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Execute `$ yarn` para instalar todas as dependencias.
+- Crie um arquivo `.env` e preencha as informações de cada variável de ambiente, as variáveis para serem preenchidas se encontram no arquivo `env.example`. 
+- Após todas as dependencias serem instaladas e as variáveis serem preenchidas, basta executar  `yarn start` para iniciar a interface frontend.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+----
+### Ajustes e melhorias
 
-### `yarn eject`
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [ ] O banco de dados mysql da API que esse frontend busca está inativo sendo impossível realizar comentários e ouvir os comentários, necessário reabilitar. 
+- [ ] Colocar limite de scroll nos comentários
