@@ -5,7 +5,9 @@
 <p align="center">
     <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#user-content-clipboard-instruções">Instruções</a></p>
+    <a href="#user-content-clipboard-instruções">Instruções</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-ajustes-e-melhorias">Melhorias</a>
+</p>
 
 <img alt="Interface" src="./assets/deviceframes.png" width="100%" align="center">
 <br/>
@@ -35,7 +37,7 @@ Frontend App em ReactJS. App frontend para cadastro de comentários e escuta de 
 - Após todas as dependencias serem instaladas e as variáveis serem preenchidas, basta executar  `yarn start` para iniciar a interface frontend.
 
 ----
-### Ajustes e melhorias
+## 📌 Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
